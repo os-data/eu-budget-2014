@@ -15,11 +15,10 @@
   "resources": [  
     {
       "name": "c!SEC1_E!en!0.csv",
-      "path": "data/c!SEC1_E!en!0.csv",
+      "path": "https://raw.githubusercontent.com/os-data/eu-budget-2014/main/data/c!SEC1_E!en!0.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": *,
-      "schema": { #fields in all csv files
+      "schema": {
         "fields": [
           {
             "name": "year",
@@ -65,7 +64,7 @@
     },
     {
       "name": "c!SEC1_E!en!10.csv",
-      "path": "data/c!SEC1_E!en!10.csv",
+      "path": "https://raw.githubusercontent.com/os-data/eu-budget-2014/main/data/c!SEC1_E!en!10.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "bytes": 3115,
